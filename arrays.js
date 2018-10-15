@@ -111,8 +111,6 @@ function eighth (){
     alert(arr);
 }
 
-
-
 function BubbleTask(){
     var arr = [4, 3, 2, 1];
     for(var i= 0; i<arr.length-1;i++){
@@ -124,8 +122,6 @@ function BubbleTask(){
     }
     alert(arr);
 }
-
-
 
 function SelectTask(){
     var arr = [4, 3, 2, 1];
