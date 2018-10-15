@@ -110,4 +110,32 @@ function eighth (){
     }
     alert(arr);
 }
-eighth ();
+
+
+
+function BubbleTask(){
+    var arr = [4, 3, 2, 1];
+    for(var i= 0; i<arr.length-1;i++){
+        for(var j=0; j<arr.length-1-i;j++){
+            if(arr[j+1] < arr[j]){
+                var tmp = arr[j+1]; arr[j+1]=arr[j]; arr[j]=tmp;
+            }
+        }
+    }
+    alert(arr);
+}
+
+
+
+function SelectTask(){
+    var arr = [4, 3, 2, 1];
+    for(var i=0; i<arr.length-1; i++){
+        var min = i;
+        for(var j = i + 1; j<arr.length; j++){
+            if(arr[j] > arr[min]) min = j;{
+                var tmp = arr[min]; arr[min] = arr[j]; arr[j] = tmp;
+            }
+        }
+    }
+    alert(arr);
+}
